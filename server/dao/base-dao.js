@@ -1,6 +1,5 @@
 const fs = require("fs");
 
-
 // Method to read data from a JSON file
 function readJSONFile(filePath) {
     const fileData = fs.readFileSync(filePath, "utf8");
